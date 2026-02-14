@@ -1,16 +1,35 @@
-class MicrowaveOven {
-	static boolean isOvenOn;
+class MicroWaveOven {
 	
-	static boolean onOrOff() {
-		if(isOvenOn == false) {
-			isOvenOn = true;
-			System.out.println("The microwave oven is ON");
-		}
-		else if(isOvenOn == true) {
-			isOvenOn = false;
-			System.out.println("The microwave oven is OFF");
-		}
-		return isOvenOn;
+	static String getSizeInfo() {
+		return "20 L"; 
 	}
+	static String getBrandInfo() {
+		return "Panasonic";
+	}
+	static String getColorInfo() {
+		return "Silver";
+	}
+	static String getFinishTypeInfo() {
+		return "Polished";
+	}
+	static String getHeatMethodInfo() {
+		return "Solo";
+	}
+	static String getModelInfo() {
+		return "NN-ST26JMFDG";
+	}
+	static String getBurnerTypeInfo() {
+		return "Cast Iron";
+	}
+	static String getVoltageInfo() {
+		return "230 Volts";
+	}
+	static String getWattageInfo() {
+		return "800 Watts";
+	}
+	static String getManufactureInfo() {
+		return "Panasonic";
+	}
+ 
 
 }
